@@ -11,12 +11,12 @@
 
     <ImageButton
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="220dp"
         app:srcCompat="@mipmap/add_btn"
         android:scaleType="centerCrop"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/imageButton"
+        android:id="@+id/imageSelect"
         android:background="#00ffffff"
         android:adjustViewBounds="true"/>
 
@@ -29,27 +29,27 @@
         android:hint="Post Title ... "
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/editText"
+        android:id="@+id/titleField"
         android:padding="15dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
-        android:singleLine="true"/>
+        android:layout_marginTop="20dp" />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="130dp"
         android:inputType="textMultiLine"
         android:ems="10"
         android:background="@drawable/input_outline"
         android:padding="15dp"
         android:hint="Post Description ... "
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/titleField"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:id="@+id/editText2"
+        android:id="@+id/descField"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginRight="20dp"
+        />
 
     <Button
         android:text="Submit Post"
@@ -57,9 +57,10 @@
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:textColor="#FFFFFF"
+        android:textSize="18sp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button2"/>
+        android:id="@+id/submitBtn"/>
 
 
 </RelativeLayout>
