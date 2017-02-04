@@ -13,11 +13,11 @@
         android:layout_width="match_parent"
         android:layout_height="220dp"
         app:srcCompat="@mipmap/add_btn"
-        android:scaleType="centerCrop"
+        android:scaleType="fitCenter"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:id="@+id/imageSelect"
         android:background="#00ffffff"
+        android:layout_marginTop="5dp"
         android:adjustViewBounds="true"/>
 
     <EditText
